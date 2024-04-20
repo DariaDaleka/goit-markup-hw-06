@@ -175,7 +175,7 @@ p {
   flex-grow: 1;
 }
 
-.mobile-menu-navigation {
+.mobile-menu-nav-link {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11111;
@@ -196,7 +196,7 @@ p {
   margin-bottom: 48px;
 }
 
-.mobile-menu-list {
+.mobile-link {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
