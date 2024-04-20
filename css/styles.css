@@ -29,9 +29,8 @@ p {
 }
 
 .container {
-  max-width: 767px;
-  padding-left: 16px;
-  padding-right: 16px;
+  max-width: 320px;
+  padding: 0 16px;
   margin: 0 auto;
 }
 
@@ -41,8 +40,6 @@ p {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-  padding-top: 12px;
-  padding-bottom: 12px;
 }
 
 .header-container {
@@ -50,6 +47,8 @@ p {
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .logo-header {
@@ -62,6 +61,7 @@ p {
   letter-spacing: 0.03em;
   color: #4d5ae5;
   margin-right: 149px;
+  padding: 17px 0;
 }
 
 .logo-studio {
@@ -152,7 +152,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #e7e9fc;
+  background-color: transparent;
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
   cursor: pointer;
@@ -904,7 +904,7 @@ p {
 
 /*Tablet*/
 
-@media (min-width: 768px) and (max-width: 1157px) {
+@media screen and (min-width: 768px) {
   .mobile-menu,
   .menu-btn {
     display: none;
@@ -1217,7 +1217,7 @@ p {
 
   .container {
     max-width: 1158px;
-    padding: 0 15px 0;
+    padding: 0 15px;
   }
 
   /*Desktop Header*/
