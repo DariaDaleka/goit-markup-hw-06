@@ -1090,7 +1090,7 @@ p {
     padding: 32px 16px;
   }
 
-  /*Footer*/
+  /*Tablet Footer*/
 
   .footer {
     background-color: #2e2f42;
@@ -1099,16 +1099,19 @@ p {
   }
 
   .footer-container {
-    width: 584px;
-    display: flex;
+    align-items: baseline;
     flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: flex-start;
+    column-gap: 0;
+    padding-left: 0;
   }
 
-  .footer-first-section {
-    margin-right: 24px;
+  .footer-soc-container {
+    display: flex;
+    gap: 24px;
+    padding-left: 120px;
+    margin-left: 0;
   }
 
   .logo-footer {
@@ -1133,11 +1136,10 @@ p {
   }
 
   .footer-third-section {
-    width: 453px;
-    height: 80px;
     display: flex;
+    justify-content: center;
+    position: relative;
     flex-direction: column;
-    align-items: start;
   }
 
   .subscribe-text {
