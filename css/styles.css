@@ -1468,11 +1468,9 @@ p {
   }
 
   .footer-container {
-    align-items: baseline;
-    flex-direction: row;
-    justify-content: flex-start;
-    gap: 0;
-    width: auto;
+    width: 1158px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
   }
 
   .footer-first-section {
