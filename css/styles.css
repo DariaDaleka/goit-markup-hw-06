@@ -1099,18 +1099,17 @@ p {
   }
 
   .footer-container {
-    align-items: baseline;
+    width: 584px;
+    display: flex;
     flex-direction: row;
-    justify-content: center;
     flex-wrap: wrap;
-    column-gap: 0;
-    padding-left: 0;
+    align-items: flex-start;
+    justify-content: flex-start;
   }
 
   .footer-soc-container {
     display: flex;
     gap: 24px;
-    padding-left: 120px;
     margin-left: 0;
   }
 
