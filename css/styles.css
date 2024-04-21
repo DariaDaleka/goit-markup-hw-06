@@ -1111,6 +1111,7 @@ p {
   .footer-soc-container {
     display: flex;
     margin-left: 0;
+    gap: 24px;
   }
 
   .logo-footer {
@@ -1124,6 +1125,7 @@ p {
 
   .footer-social-media {
     text-align: left;
+    margin-top: 0;
   }
 
   .social-media-list {
