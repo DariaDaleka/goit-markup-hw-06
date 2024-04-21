@@ -497,7 +497,7 @@ p {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
-  padding: 32px;
+  padding: 32px 16px;
 }
 
 .our-portfolio-title {
@@ -529,7 +529,6 @@ p {
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  gap: 72px;
 }
 
 .footer-first-section {
@@ -569,6 +568,7 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  margin-top: 72px;
   margin-bottom: 16px;
   text-align: center;
 }
@@ -612,6 +612,7 @@ p {
   letter-spacing: 0.02em;
   color: #fff;
   text-align: center;
+  margin-top: 72px;
   margin-bottom: 16px;
 }
 
@@ -627,7 +628,7 @@ p {
   padding: 8px 16px;
   border: 1px solid #fff;
   border-radius: 4px;
-  width: 264px;
+  width: 288px;
   height: 40px;
   font-size: 12px;
   line-height: 2;
@@ -1109,7 +1110,6 @@ p {
 
   .footer-soc-container {
     display: flex;
-    gap: 24px;
     margin-left: 0;
   }
 
@@ -1300,6 +1300,8 @@ p {
 
   .link {
     line-height: 1.5;
+    font-weight: 400;
+    font-size: 16px;
     color: #434455;
     letter-spacing: 0.02em;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1488,6 +1490,7 @@ p {
 
   .footer-social-media {
     text-align: left;
+    margin-top: 0;
   }
 
   .social-media-list {
@@ -1501,7 +1504,7 @@ p {
 
   .footer-third-section {
     width: 453px;
-    height: 80px;
+    height: 10px;
     display: flex;
     flex-direction: column;
     align-items: start;
